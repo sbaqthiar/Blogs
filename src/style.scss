@@ -1,0 +1,116 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard {
+    .border-red {
+        border: 3px solid #333;
+    }
+    .padding-none {
+        padding: 0px 0px;
+    }
+    .card-padding {
+        padding: 10px;
+    }
+    .margin-none {
+        margin: 0px;
+    }
+    .padding-left {
+        padding-left: 1rem;
+    }
+    .padding-right-bottom {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .top-buffer {
+        margin-top: 10px;
+    }
+    .right-buffer {
+        margin: none;
+    }
+    .list-item {
+        border-radius: 0px;
+    }
+    .list-item:hover {
+        background-color: rgb(201, 189, 189);
+    }
+    h5 {
+        padding-top: 1rem;
+    }
+}
+
+.posts-page {
+    .border-grey {
+        border: 3px solid rgb(117, 113, 113);
+    }
+    .top-buffer {
+        margin-top: 10px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+    .padding-none {
+        padding: 0px 0px;
+    }
+    .card-body {
+        padding: 0px 10px;
+        p {
+            font-size: 12px;
+        }
+    }
+    .list-item {
+        border-radius: 0px;
+    }
+    .list-item:hover {
+        background-color: rgb(201, 189, 189);
+    }
+    .FixedHeightContainer {
+        height: 250px;
+    }
+    .Content {
+        height: 214px;
+        overflow: auto;
+        background: #fff;
+    }
+    .padding-left {
+        padding-left: 0.5rem;
+    }
+}
+
+.links-page {
+    .border-grey {
+        border: 3px solid rgb(117, 113, 113);
+    }
+    .top-buffer {
+        margin-top: 10px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+    .padding-none {
+        padding: 0px 0px;
+    }
+    .card-body {
+        padding: 0px 10px;
+        p {
+            font-size: 12px;
+        }
+    }
+    .list-item {
+        border-radius: 0px;
+    }
+    .list-item:hover {
+        background-color: rgb(201, 189, 189);
+    }
+    .FixedHeightContainer {
+        height: 250px;
+    }
+    .Content {
+        height: 214px;
+        overflow: auto;
+        background: #fff;
+    }
+    .padding-left {
+        padding-left: 0.5rem;
+    }
+}

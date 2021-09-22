@@ -1,0 +1,141 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard .border-red {
+  border: 3px solid #333;
+}
+
+.dashboard .padding-none {
+  padding: 0px 0px;
+}
+
+.dashboard .card-padding {
+  padding: 10px;
+}
+
+.dashboard .margin-none {
+  margin: 0px;
+}
+
+.dashboard .padding-left {
+  padding-left: 1rem;
+}
+
+.dashboard .padding-right-bottom {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.dashboard .top-buffer {
+  margin-top: 10px;
+}
+
+.dashboard .right-buffer {
+  margin: none;
+}
+
+.dashboard .list-item {
+  border-radius: 0px;
+}
+
+.dashboard .list-item:hover {
+  background-color: #c9bdbd;
+}
+
+.dashboard h5 {
+  padding-top: 1rem;
+}
+
+.posts-page .border-grey {
+  border: 3px solid #757171;
+}
+
+.posts-page .top-buffer {
+  margin-top: 10px;
+}
+
+.posts-page h6 {
+  font-size: 12px;
+}
+
+.posts-page .padding-none {
+  padding: 0px 0px;
+}
+
+.posts-page .card-body {
+  padding: 0px 10px;
+}
+
+.posts-page .card-body p {
+  font-size: 12px;
+}
+
+.posts-page .list-item {
+  border-radius: 0px;
+}
+
+.posts-page .list-item:hover {
+  background-color: #c9bdbd;
+}
+
+.posts-page .FixedHeightContainer {
+  height: 250px;
+}
+
+.posts-page .Content {
+  height: 214px;
+  overflow: auto;
+  background: #fff;
+}
+
+.posts-page .padding-left {
+  padding-left: 0.5rem;
+}
+
+.links-page .border-grey {
+  border: 3px solid #757171;
+}
+
+.links-page .top-buffer {
+  margin-top: 10px;
+}
+
+.links-page h6 {
+  font-size: 12px;
+}
+
+.links-page .padding-none {
+  padding: 0px 0px;
+}
+
+.links-page .card-body {
+  padding: 0px 10px;
+}
+
+.links-page .card-body p {
+  font-size: 12px;
+}
+
+.links-page .list-item {
+  border-radius: 0px;
+}
+
+.links-page .list-item:hover {
+  background-color: #c9bdbd;
+}
+
+.links-page .FixedHeightContainer {
+  height: 250px;
+}
+
+.links-page .Content {
+  height: 214px;
+  overflow: auto;
+  background: #fff;
+}
+
+.links-page .padding-left {
+  padding-left: 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */
