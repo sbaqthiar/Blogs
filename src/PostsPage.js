@@ -2,6 +2,7 @@ import React from 'react'
 import GhostContentAPI from '@tryghost/content-api'
 import { useEffect, useState } from 'react';
 import ListItem from './ListItem';
+import NavButtons from './NavButtons';
 
 function PostsPage() {
     //State for posts without meta description
@@ -68,6 +69,12 @@ function PostsPage() {
         <>
             <div className="posts-page">
                 <div className="container-fluid">
+                    <NavButtons/>
+                    <div className="row">
+                        <div className="col-md">
+                            <h1>Posts Page</h1>
+                        </div>
+                    </div>
                     <div className="row top-buffer">
                         <div className="col-md-4 border-grey padding-none FixedHeightContainer">
                             <h6 className="padding-left">Posts without Meta Description</h6>

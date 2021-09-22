@@ -3,7 +3,7 @@ import GhostContentAPI from '@tryghost/content-api'
 import { useEffect, useState } from 'react';
 import ListItem from './ListItem';
 import LinkItem from './LinkItem';
-import axios from 'axios';
+import NavButtons from './NavButtons';
 
 function LinksPage() {
     let urlRegex = /(((https?:\/\/)|(www\.))[^\s]+)/g;
@@ -112,11 +112,6 @@ function LinksPage() {
                 })
             })
 
-            axios.get('')
-
-            
-            console.log(ExtLinksBroken)
-
         }).catch((err) => console.log(err))
 
 
@@ -125,6 +120,12 @@ function LinksPage() {
         <>
             <div className="links-page">
                 <div className="container-fluid">
+                    <NavButtons/>
+                    <div className="row">
+                        <div className="col-md">
+                            <h1>Links Page</h1>
+                        </div>
+                    </div>
                     <div className="row top-buffer">
                         <div className="col-md-4 border-grey padding-none FixedHeightContainer">
                             <h6 className="padding-left">Total Number of Links</h6>

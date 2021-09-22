@@ -2,6 +2,7 @@ import GhostContentAPI from '@tryghost/content-api'
 import { useEffect, useState } from 'react';
 import ListItem from './ListItem';
 import Chart from 'react-google-charts';
+import NavButtons from './NavButtons';
 
 const Dashboard = () => {
 
@@ -107,6 +108,12 @@ const Dashboard = () => {
         <>
             <div className="dashboard">
                 <div className="container px-4">
+                    <NavButtons/>
+                    <div className="row">
+                        <div className="col-md">
+                            <h1>Dashboard</h1>
+                        </div>
+                    </div>
                     <div className="row top-buffer">
                         <div className="col-md-3 border-red padding-none right-buffer ">
                             <div className="card ">
